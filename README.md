@@ -34,3 +34,7 @@
 ### 5. CLI 互動式單筆登記 (Interactive CLI)
 * 提供終端機 (Terminal) 互動介面，系統會逐步提示輸入各項資訊 (姓名、性別及各科成績) 作為手動建檔的備案。
 * 每筆資料輸入完畢後立即存入 MySQL 資料庫，並詢問是否繼續 (y/n)。
+
+## 🚀 快速啟動指南 (Quick Start)
+1. **套件安裝**: 於本機端終端機執行 pip install mysqlclient 安裝 Python 驅動套件。
+2. **連線設定**: Python 腳本預設連線主機為 localhost，xxx請替代成你的帳號，yyy請替代成你的密碼，資料庫名稱 mydatabase。
